@@ -1,11 +1,20 @@
 # M4MA-group-benchmarking
-This repository exists as a collection of results comparing old vs improved social dynamics in M4MA. 
+This repository exists for benchamarking the previous iteration of Minds for Mobile Agents (M4MA) model with the newest group behaviour changes.
 
-The folders within this repository are named after the new implementations of group dynamics in the M4MA (0.3.0). Namely, `archtypes`, `group_goals`, `individual_goals`, and `density_analysis`. Each folder contains the respective simulation scripts, GIFs, trace files (.Rds), and plotting scripts. 
+## Background
 
-# Installation
+The old version of the M4MA is v0.1.0 and can be viewed through the following [link](https://github.com/ndpvh/predped) (at the time of creating this repository). The changes which were implement in the new version of the M4MA (v0.3.0) can be viewed through the following [link](https://github.com/ndpvh/predped/group-goals). 
 
-## Old version of M4MA
+The folders within this repository are named after the new implementations. Namely,
+>`archtypes`, 
+>`group_goals`, 
+>`individual_goals`, 
+> and `density_analysis`. 
+Each folder contains the respective simulation scripts, GIFs, trace files (.Rds), and plotting scripts. 
+
+## Installation
+
+### Old version of M4MA
 
 Install the `predped` via `remotes`:
 
@@ -19,7 +28,7 @@ To use the package, load it through `library()`:
 library(predped)
 ```
 
-## New version of M4MA
+### New version of M4MA
 
 The new implementations are contained within the group-goals branch. Hence the installation is slightly different.
 
@@ -34,3 +43,12 @@ To use the package, load it through `library()`:
 ``` r
 library(predped)
 ```
+
+## Contact
+
+For any help or access to additional files please contact me at:
+ > kubojurak@gmail.com
+
+## See also
+
+For more information about the M4MA model and the `predped` package please refer to the following [GitHub Page](https://github.com/ndpvh/predped).
