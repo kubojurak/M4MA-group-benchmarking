@@ -32,7 +32,7 @@ basic_environment <- background(
 # 3. Set up the predped 
 my_predped <- predped(
   setting = basic_environment,
-  archetypes = c("Colleagues"), # If its the old version use old archetypes
+  archetypes = c("SocialBaselineEuropean"), # If its the old version use old archetypes
   weights = c(1.0)
 )
 
@@ -54,7 +54,7 @@ output_dir <- file.path("group_goals", "results")
 
 trace_data <- unpack_trace(trace)
 
-saveRDS(trace_data, file.path(output_dir, 'new_M4MA.Rds'))
+saveRDS(trace_data, file.path(output_dir, 'old_M4MA.Rds'))
 
 # 6. Create the plot and save it as a gif
 
@@ -62,7 +62,7 @@ plt <- plot(trace)
 
 gifski::save_gif(
   lapply(plt, print),
-  file.path(output_dir, "new_M4MA.gif"),
+  file.path(output_dir, "old_M4MA.gif"),
   delay = 1/10
 )
 

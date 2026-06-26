@@ -3,7 +3,7 @@ This repository exists for benchmarking the previous iteration of the Minds for 
 
 ## Background
 
-The old version of the M4MA (v0.1.0) and can be viewed through the following [link](https://github.com/ndpvh/predped) (at the time of creating this repository). The changes which were implement in the new version of the M4MA (v0.3.0) can be viewed through the following [link](https://github.com/ndpvh/predped/group-goals). 
+The old version of the M4MA (v0.2.0) and can be viewed through the following [link](https://github.com/ndpvh/predped) (at the time of creating this repository). The changes which were implement in the new version of the M4MA (v0.3.0) can be viewed through the following [link](https://github.com/ndpvh/predped/group-goals). 
 
 The folders within this repository are named after the new implementations. Namely,
 >[`archtypes`](./archetypes/), 
